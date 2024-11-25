@@ -27,7 +27,7 @@ def load_data():
     
     Settings.llm = Gemini(
         model="models/gemini-1.5-flash",
-        temperature=0.2,
+        temperature=1.0,
         system_prompt="""You are an expert on the work of Rabindrath Tagore.
         Answer the question using the provided documents, which contain relevant excerpts from the work of Rabindrath Tagore.
         The context for all questions is the work of Rabindrath Tagore. Whenver possible, include a quotation from the provided excerpts of his work to illustrate your point.
