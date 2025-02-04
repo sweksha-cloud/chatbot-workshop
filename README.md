@@ -6,7 +6,7 @@ The demo chatbot is an expert on the works of author Rabindranath Tagore. Fork t
 
 ## Overview of the App
 
-<img src="app-image.png" width="75%">
+<img src="app-image-25.png" width="75%">
 
 - Takes user queries via Streamlit's `st.chat_input` and displays both user queries and model responses with `st.chat_message`
 - Uses LlamaIndex to load and index data and create a chat engine that will retrieve context from that data to respond to each user query
