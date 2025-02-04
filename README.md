@@ -1,6 +1,8 @@
 # 🦙📚 LlamaIndex Chatbot with Google Gemini
 
-Build a chatbot powered by LlamaIndex that augments Google Gemini with local documents. Based on the chatbot described in <a href="https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/">this blog post.</a>
+Build a chatbot powered by LlamaIndex that augments Google Gemini with local documents. This repository is used in the Build Your Own AI Chatbot offered by <a href="https://library.sjsu.edu/digitalhumanities">King Library's Digital Humanities Center</a>. The original code for this chatbot is based on the chabtot described in <a href="https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/">this blog post.</a>
+
+The demo chatbot is an expert on the works of author Rabindranath Tagore. Fork the repository and add your own documents to create a chatbot that focuses on a different topic.
 
 ## Overview of the App
 
@@ -22,7 +24,7 @@ Follow the steps in the workshop slides at <a href="https://tiny.sjsu.edu/chatbo
 
 ## Try out the app
 
-Once the app is loaded, enter your question about the Streamlit library and wait for a response.
+Once the app is loaded, enter your question about Rabindranath Tagore and wait for a response.
 
 ## Source texts
 
