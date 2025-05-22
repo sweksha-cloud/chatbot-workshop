@@ -17,7 +17,7 @@ The demo chatbot is an expert on the works of author Rabindranath Tagore. Fork t
 
 ## Build your own copy
 
-Follow the steps in the workshop slides at <a href="https://tiny.sjsu.edu/chatbot-workshop">https://tiny.sjsu.edu/chatbot-workshop</a>
+Follow the steps in the workshop slides at [https://tiny.sjsu.edu/chatbot-workshop](https://tiny.sjsu.edu/chatbot-workshop-2025 )
 
 > [!CAUTION]
 > Don't commit your secrets file to your GitHub repository. The `.gitignore` file in this repo includes `.streamlit/secrets.toml` and `secrets.toml`. 
