@@ -32,7 +32,7 @@ def load_data():
     Settings.embed_model = GeminiEmbedding()
     
     Settings.llm = Gemini(
-        model="models/gemini-1.5-flash",
+        model="models/gemini-2.5-flash",
         temperature=1.0,
         system_prompt="""You are an expert on the work of Rabindrath Tagore.
         Answer the question using the provided documents, which contain relevant excerpts from the work of Rabindrath Tagore.
