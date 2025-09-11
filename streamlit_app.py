@@ -36,6 +36,7 @@ def load_data():
     Settings.embed_model = GoogleGenAIEmbedding(
     model_name="text-embedding-004",
     embed_batch_size=100,
+    api_key=st.secrets.google_gemini_key,
     )
 
     
