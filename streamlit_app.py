@@ -4,6 +4,10 @@ import streamlit as st
 from llama_index.llms.gemini import Gemini
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.embeddings.gemini import GeminiEmbedding
+
+from llama_index.embeddings.google_genai import GoogleGenAIEmbedding
+from google.genai.types import EmbedContentConfig
+
 import nltk
 
 @st.cache_data
@@ -29,7 +33,11 @@ def load_data():
 
     Settings.chunk_size = 1500
     Settings.chunk_overlap = 50
-    Settings.embed_model = GeminiEmbedding()
+    Settings.embed_model = GoogleGenAIEmbedding(
+    model_name="text-embedding-004",
+    embed_batch_size=100,
+    )
+
     
     Settings.llm = Gemini(
         model="models/gemini-2.5-flash",
