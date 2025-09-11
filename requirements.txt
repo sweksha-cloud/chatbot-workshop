@@ -3,7 +3,7 @@ llama-index
 llama-index-llms-openai
 llama-index-llms-gemini
 llama-index-embeddings-gemini
-llama_index.embeddings.google_genai
-google.genai.types
+llama_index-embeddings-google_genai
+google-genai-types
 nltk
 pypdf
